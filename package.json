@@ -1,0 +1,19 @@
+{
+  "name": "postalbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon src/index.js --harmony",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "boom": "^3.2.1",
+    "hapi": "^13.4.1",
+    "hapi-mongodb": "^6.0.0",
+    "joi": "^8.4.2",
+    "messenger-bot": "^2.3.0"
+  }
+}
